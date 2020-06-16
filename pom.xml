@@ -67,13 +67,14 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		<distributionManagement>
+		
+	</dependencies>
+	<distributionManagement>
   <snapshotRepository>
     <id>nexus</id>
     <url>http://52.14.118.47:8081/nexus/content/repositories/snapshots</url>
   </snapshotRepository>
 </distributionManagement>
-	</dependencies>
 	
 	<build>
 		<plugins>
