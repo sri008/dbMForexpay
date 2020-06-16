@@ -117,7 +117,7 @@
 
 <configuration>
 
-                <url>jdbc:mysql:http://52.14.118.47:3306</url>
+                <url>jdbc:mysql://52.14.118.47:3306</url>
 
                 <user>flyuser1</user>
 
