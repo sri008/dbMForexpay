@@ -105,6 +105,32 @@
 					</execution>
 				</executions>
 			</plugin>
+			
+			<plugin>
+
+        <groupId>org.flywaydb</groupId>
+
+        <artifactId>flyway-maven-plugin</artifactId>
+
+        <version>6.3.2</version>
+
+<configuration>
+
+                <url>jdbc:mysql://13.59.12.190:3306</url>
+
+                <user>flyuser1</user>
+
+                <password>H@ckath0n</password>
+
+               <schemas>
+
+                        <schema>testdb</schema>
+
+              </schemas>
+
+ </configuration>     
+
+</plugin>
 		</plugins>
 	</build>
 
