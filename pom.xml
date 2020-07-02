@@ -71,7 +71,7 @@
 	</dependencies>
 	<scm>
         <connection>scm:https://github.com/karrispandana/ForexPay.git</connection>
-    <developerConnection>scm:git:https://github.com/KarriSpandana:Kasturiraj@20@github.com/ForexPay.git</developerConnection>
+    <developerConnection>scm:git:https://github.com/KarriSpandana:kasturiraj20@github.com/ForexPay.git</developerConnection>
     <url>https://github.com/KarriSpandana/ForexPay.git</url>
     <tag>HEAD</tag>
   </scm>
