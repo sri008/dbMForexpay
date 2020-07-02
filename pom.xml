@@ -69,12 +69,24 @@
 		</dependency>
 		
 	</dependencies>
+	<scm>
+        <connection>scm:https://github.com/karrispandana/ForexPay.git</connection>
+    <developerConnection>scm:git:https://github.com/KarriSpandana/ForexPay.git</developerConnection>
+    <url>https://github.com/KarriSpandana/ForexPay.git</url>
+    <tag>HEAD</tag>
+  </scm>
 	<distributionManagement>
-  <snapshotRepository>
-    <id>nexus</id>
-    <url>http://3.136.18.49:8081/nexus/content/repositories/snapshots</url>
-  </snapshotRepository>
-</distributionManagement>
+	         <snapshotRepository>
+		 <id>nexus</id>
+		<url>http://172.31.63.131:8081/nexus/content/repositories/snapshots</url>
+		 </snapshotRepository> 
+			  <repository>
+			<id>nexus</id>
+			<url>http://172.31.63.131:8081/nexus/content/repositories/releases</url>
+	               </repository>
+		
+	</distributionManagement>
+
 	<build>
 		<plugins>
 			<plugin>
@@ -131,6 +143,18 @@
  </configuration>     
 
 </plugin>
+			<plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+                <version>3.0.0-M1</version>
+                <configuration>
+                    <autoVersionSubmodules>true</autoVersionSubmodules>
+                    <pushChanges>false</pushChanges>
+                    <localCheckout>true</localCheckout>
+                <tagNameFormat>v@{project.version}</tagNameFormat>
+                </configuration>
+                 </plugin>
+
 		</plugins>
 	</build>
 
