@@ -126,15 +126,15 @@
 
 <configuration>
 
-                <url>jdbc:mysql://52.14.118.47:3306</url>
+                <url>jdbc:mysql://172.31.1.71:3306</url>
 
-                <user>flyuser1</user>
+                <user>forexuser1</user>
 
                 <password>H@ckath0n</password>
 
                <schemas>
 
-                        <schema>testdb</schema>
+                        <schema>forexpay</schema>
 
               </schemas>
 
