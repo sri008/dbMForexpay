@@ -124,22 +124,6 @@
 
         <version>6.3.2</version>
 
-<configuration>
-
-                <url>jdbc:mysql://172.31.39.6:3306</url>
-
-                <user>forexuser</user>
-
-                <password>H@ckath0n</password>
-
-               <schemas>
-
-                        <schema>forexpay</schema>
-
-              </schemas>
-
- </configuration>     
-
 </plugin>
 			<plugin>
                 <groupId>org.apache.maven.plugins</groupId>
